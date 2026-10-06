@@ -1,36 +1,28 @@
 ---
-layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: true
+excerpt: "Journal articles, conference papers, and manuscripts by Mohammad Sadeghi."
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p>You can also find my publications on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
+<h2 id="journal-articles">Journal articles</h2>
+<ol class="publication-list">
+  {% for paper in site.data.publications.journals %}
+    {% include publication-entry.html paper=paper %}
   {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+</ol>
+
+<h2 id="conference-papers">Conference papers</h2>
+<ol class="publication-list">
+  {% for paper in site.data.publications.conferences %}
+    {% include publication-entry.html paper=paper %}
   {% endfor %}
-{% endif %}
+</ol>
 
-
-
+<h2 id="under-review">Under review</h2>
+<ul class="publication-list">
+  {% for paper in site.data.publications.submissions %}
+    {% include publication-entry.html paper=paper %}
+  {% endfor %}
+</ul>

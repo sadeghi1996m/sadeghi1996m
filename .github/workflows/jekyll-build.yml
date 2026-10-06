@@ -1,34 +1,28 @@
-name: Jekyll build
+name: Validate website
 
 on:
-  # Run after bad-pr check
-  workflow_run:
-    workflows: ["Cleanup bad PR"]
-    branches: [main]
-    types:
-      - completed
-      
+  push:
+    branches: [master, main]
+  pull_request:
+  workflow_dispatch:
+
 permissions:
   contents: read
 
 concurrency:
-  group: jekyll-build-${{ github.ref }}
+  group: jekyll-check-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Check out website
+        uses: actions/checkout@v6
+      - name: Build with the GitHub Pages Jekyll environment
+        uses: actions/jekyll-build-pages@v1
         with:
-          ruby-version: "3.2"
-          bundler-cache: true
-
-      - name: Build site
-        run: bundle exec jekyll build --strict_front_matter
-        env:
-          JEKYLL_ENV: production
+          source: ./
+          destination: ./_site
+# Publishing is configured separately in Settings > Pages:
+# Deploy from a branch > master > /(root).

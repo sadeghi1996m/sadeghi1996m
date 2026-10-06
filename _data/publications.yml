@@ -1,0 +1,33 @@
+# Publications are listed in the order shown on the website.
+# Keep submissions separate from published work. Add a DOI only when available.
+journals:
+  - title: "Prior knowledge-driven robust electrode placement method for P300-based brain-computer interfaces"
+    authors: "M. Sadeghi, M. Babaie-Zadeh, and B. Rivet"
+    venue: "Biomedical Signal Processing and Control"
+    details: "Vol. 120, article 110123"
+    year: 2026
+    doi: "10.1016/j.bspc.2026.110123"
+  - title: "Enhancing source separation quality via optimal sensor placement in noisy environments"
+    authors: "M. Sadeghi, B. Rivet, and M. Babaie-Zadeh"
+    venue: "Signal Processing"
+    details: "Vol. 226, article 109659"
+    year: 2025
+    doi: "10.1016/j.sigpro.2024.109659"
+  - title: "An improved GraDe method for blind separation of graph signals"
+    authors: "M. Sadeghi and M. Babaie-Zadeh"
+    venue: "IEEE Transactions on Signal Processing"
+    details: "Vol. 71, pp. 4382–4391"
+    year: 2023
+    doi: "10.1109/TSP.2023.3331264"
+conferences:
+  - title: "Optimal sensor placement for source separation with noisy measurements"
+    authors: "M. Sadeghi, B. Rivet, and M. Babaie-Zadeh"
+    venue: "31st European Signal Processing Conference (EUSIPCO)"
+    details: "Helsinki, Finland, pp. 1664–1668"
+    year: 2023
+    doi: "10.23919/EUSIPCO58844.2023.10289756"
+submissions:
+  - title: "Optimal sensor placement for sparse signal reconstruction from noisy measurements"
+    authors: "M. Sadeghi, B. Rivet, and M. Babaie-Zadeh"
+    venue: "IEEE Signal Processing Letters"
+    status: "Submitted · Under review"

@@ -1,0 +1,14 @@
+<li class="publication-entry">
+  <h3 class="publication-title">
+    {% if include.paper.doi %}
+      <a href="https://doi.org/{{ include.paper.doi }}">{{ include.paper.title }}</a>
+    {% else %}
+      {{ include.paper.title }}
+    {% endif %}
+  </h3>
+  <p class="publication-authors">{{ include.paper.authors | replace: 'M. Sadeghi', '<strong>M. Sadeghi</strong>' }}.</p>
+  <p class="publication-venue"><em>{{ include.paper.venue }}</em>{% if include.paper.year %}, {{ include.paper.year }}{% endif %}.</p>
+  {% if include.paper.details %}<p class="publication-details">{{ include.paper.details }}.</p>{% endif %}
+  {% if include.paper.status %}<p class="publication-status">{{ include.paper.status }}</p>{% endif %}
+  {% if include.paper.doi %}<p class="publication-links"><a href="https://doi.org/{{ include.paper.doi }}" aria-label="DOI for {{ include.paper.title | escape }}">DOI <span aria-hidden="true">↗</span></a></p>{% endif %}
+</li>
