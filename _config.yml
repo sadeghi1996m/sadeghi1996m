@@ -48,7 +48,6 @@ include:
 exclude:
   - AGENTS.md
   - README.md
-  - LICENSE
   - Gemfile
   - Gemfile.lock
   - Dockerfile

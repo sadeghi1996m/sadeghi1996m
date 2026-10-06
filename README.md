@@ -54,4 +54,8 @@ Open **http://127.0.0.1:4000/**. Restart Jekyll after changes to `_config.yml`.
 
 ## Credits
 
-This website retains the Academic Pages / Minimal Mistakes theme. See `LICENSE`.
+This website adapts [Academic Pages](https://github.com/academicpages/academicpages.github.io), originally forked by Stuart Geiger from [Minimal Mistakes](https://mademistakes.com/work/jekyll-themes/minimal-mistakes/) by Michael Rose. Academic Pages is maintained by Robert Zupko and contributors. The site is generated with [Jekyll](https://jekyllrb.com).
+
+The original [MIT license](LICENSE), including `Copyright (c) 2016 Michael Rose`, is retained unchanged. MIT permits modification and redistribution provided its copyright and permission notices remain with copies or substantial portions of the software. Keep this file and the notices belonging to bundled third-party components when redistributing the site code.
+
+The published site includes the full theme license at `/LICENSE`, linked from the footer. The visible theme credits acknowledge the source projects; the MIT license does not specifically require a footer link. The footer's personal copyright line refers to site content, not ownership of the upstream theme.
