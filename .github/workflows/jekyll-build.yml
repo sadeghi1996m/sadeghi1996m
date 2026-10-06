@@ -2,7 +2,7 @@ name: Validate website
 
 on:
   push:
-    branches: [master, main]
+    branches: [Deploy, master, main]
   pull_request:
   workflow_dispatch:
 
@@ -25,4 +25,4 @@ jobs:
           source: ./
           destination: ./_site
 # Publishing is configured separately in Settings > Pages:
-# Deploy from a branch > master > /(root).
+# Deploy from a branch > Deploy > /(root).

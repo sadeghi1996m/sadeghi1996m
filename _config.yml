@@ -7,11 +7,11 @@ title_separator: "|"
 name: "Mohammad Sadeghi"
 description: "Mohammad Sadeghi — graph signal processing, source separation, and statistical methods for sensor placement and EEG."
 
-# This repository is sadeghi1996m/sadeghi1996m (a project site).
-# If renamed to sadeghi1996m.github.io, change baseurl to "" and update repository.
+# Rename the GitHub repository to sadeghi1996m.github.io before publishing
+# this configuration. A user homepage is served at the domain root.
 url: "https://sadeghi1996m.github.io"
-baseurl: "/sadeghi1996m"
-repository: "sadeghi1996m/sadeghi1996m"
+baseurl: ""
+repository: "sadeghi1996m/sadeghi1996m.github.io"
 
 author:
   avatar: "mohammad-sadeghi.png"
