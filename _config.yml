@@ -16,13 +16,11 @@ repository: "sadeghi1996m/sadeghi1996m.github.io"
 author:
   avatar: "mohammad-sadeghi.png"
   name: "Mohammad Sadeghi"
-  bio: "PhD in Signal Processing"
   location: "Grenoble, France"
   email: "m.sadeghi.gh1996@gmail.com"
   googlescholar: "https://scholar.google.com/citations?user=arn8CucAAAAJ&hl=en"
   linkedin: "mohammad-sadeghi-gh"
-  # Add your GitHub profile here when your research code is ready.
-  github:
+  github: "sadeghi1996m"
 
 breadcrumbs: false
 words_per_minute: 160
@@ -42,6 +40,7 @@ social:
   links:
     - "https://scholar.google.com/citations?user=arn8CucAAAAJ&hl=en"
     - "https://www.linkedin.com/in/mohammad-sadeghi-gh"
+    - "https://github.com/sadeghi1996m"
 
 include:
   - _pages

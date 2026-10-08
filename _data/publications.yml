@@ -7,18 +7,22 @@ journals:
     details: "Vol. 120, article 110123"
     year: 2026
     doi: "10.1016/j.bspc.2026.110123"
+    pdf: "https://hal.science/hal-05623816v1/document"
   - title: "Enhancing source separation quality via optimal sensor placement in noisy environments"
     authors: "M. Sadeghi, B. Rivet, and M. Babaie-Zadeh"
     venue: "Signal Processing"
     details: "Vol. 226, article 109659"
     year: 2025
     doi: "10.1016/j.sigpro.2024.109659"
+    pdf: "https://hal.science/hal-04687771/document"
   - title: "An improved GraDe method for blind separation of graph signals"
     authors: "M. Sadeghi and M. Babaie-Zadeh"
     venue: "IEEE Transactions on Signal Processing"
     details: "Vol. 71, pp. 4382–4391"
     year: 2023
     doi: "10.1109/TSP.2023.3331264"
+    pdf: "https://hal.science/hal-05613925/document"
+    code: "https://github.com/sadeghi1996m/Improved-GraDe"
 conferences:
   - title: "Optimal sensor placement for source separation with noisy measurements"
     authors: "M. Sadeghi, B. Rivet, and M. Babaie-Zadeh"
@@ -26,6 +30,7 @@ conferences:
     details: "Helsinki, Finland, pp. 1664–1668"
     year: 2023
     doi: "10.23919/EUSIPCO58844.2023.10289756"
+    pdf: "https://www.eurasip.org/Proceedings/Eusipco/Eusipco2023/pdfs/0001664.pdf"
 submissions:
   - title: "Optimal sensor placement for sparse signal reconstruction from noisy measurements"
     authors: "M. Sadeghi, B. Rivet, and M. Babaie-Zadeh"

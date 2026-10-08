@@ -10,5 +10,17 @@
   <p class="publication-venue"><em>{{ include.paper.venue }}</em>{% if include.paper.year %}, {{ include.paper.year }}{% endif %}.</p>
   {% if include.paper.details %}<p class="publication-details">{{ include.paper.details }}.</p>{% endif %}
   {% if include.paper.status %}<p class="publication-status">{{ include.paper.status }}</p>{% endif %}
-  {% if include.paper.doi %}<p class="publication-links"><a href="https://doi.org/{{ include.paper.doi }}" aria-label="DOI for {{ include.paper.title | escape }}">DOI <span aria-hidden="true">↗</span></a></p>{% endif %}
+  {% if include.paper.doi or include.paper.pdf or include.paper.code %}
+  <p class="publication-links">
+    {% if include.paper.doi %}<a href="https://doi.org/{{ include.paper.doi }}" aria-label="DOI for {{ include.paper.title | escape }}">DOI <span aria-hidden="true">↗</span></a>{% endif %}
+    {% if include.paper.pdf %}
+      {% if include.paper.doi %}<span aria-hidden="true"> &middot; </span>{% endif %}
+      <a href="{{ include.paper.pdf | escape }}" aria-label="PDF of {{ include.paper.title | escape }}">PDF <span aria-hidden="true">↗</span></a>
+    {% endif %}
+    {% if include.paper.code %}
+      {% if include.paper.doi or include.paper.pdf %}<span aria-hidden="true"> &middot; </span>{% endif %}
+      <a href="{{ include.paper.code | escape }}" aria-label="Code for {{ include.paper.title | escape }}">Code <span aria-hidden="true">↗</span></a>
+    {% endif %}
+  </p>
+  {% endif %}
 </li>

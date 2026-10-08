@@ -6,7 +6,7 @@
   </div>
   <div class="author__content">
     <h2 class="author__name" itemprop="name">{{ author.name }}</h2>
-    <p class="author__bio">{{ author.bio }}</p>
+    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
     <p class="author__location"><i class="fas fa-fw fa-location-dot" aria-hidden="true"></i> {{ author.location }}</p>
   </div>
   <div class="author__urls-wrapper">
