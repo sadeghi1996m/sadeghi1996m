@@ -7,26 +7,27 @@ redirect_from:
   - /about.html
 ---
 
-I recently defended my cotutelle PhD in Signal, Image, Speech and Telecommunications at **Université Grenoble Alpes** ([GIPSA-lab](https://www.gipsa-lab.grenoble-inp.fr/)) and **Sharif University of Technology**.
+I recently defended my cotutelle PhD in Signal, Image, Speech and Telecommunications at *Université Grenoble Alpes ([GIPSA-lab](https://www.gipsa-lab.grenoble-inp.fr/)) and Sharif University of Technology.
 
-I began my doctoral research at Sharif University of Technology, under the supervision of **Massoud Babaie-Zadeh**. My work focused on **graph signal processing**, particularly the **blind separation of graph signals**.
 
-In 2023, I joined GIPSA-lab in Grenoble as part of the cotutelle programme, with **Bertrand Rivet** as my co-supervisor. My research there focused on **optimal sensor placement for source separation** in noisy and uncertain environments, with applications to EEG electrode placement for P300-based brain–computer interfaces.
+I began my doctoral research at Sharif University of Technology, under the supervision of [Massoud Babaie-Zadeh](https://scholar.google.com/citations?hl=en&user=5H-SuMcAAAAJ&view_op=list_works&sortby=pubdate). My work focused on graph signal processing, particularly the blind separation of graph signals.
+
+In 2023, I joined GIPSA-lab in Grenoble as part of the cotutelle programme, under the supervision of [Bertrand Rivet](https://www.gipsa-lab.grenoble-inp.fr/~bertrand.rivet/). My research there focused on optimal sensor placement for source separation in noisy and uncertain environments, with applications to EEG electrode placement for P300-based brain–computer interfaces.
 
 ## Research interests
 
 - Graph signal processing and machine learning
 - Biomedical data analysis
 - Source separation
-- Statistical signal processing
 
 [Explore my research]({{ '/research/' | relative_url }}) · [View publications]({{ '/publications/' | relative_url }})
 
 ## Background
 
-I received my MSc in Electrical Engineering (Communication Systems) from **Sharif University of Technology** in 2020 and my BSc in Electrical Engineering from the **University of Tehran** in 2018.
+I received my MSc in Electrical Engineering (Communication Systems) from Sharif University of Technology in 2020 and my BSc in Electrical Engineering from the University of Tehran in 2018.
 
-During my master's studies, I also gained industry experience as a **Signal Processing Engineer**, developing a QPSK radio link with real-time signal processing on FPGA.
+During my master's studies, I also gained industry experience in communication systems, developing a QPSK radio link with real-time signal processing on FPGA.
+
 
 ## Contact
 

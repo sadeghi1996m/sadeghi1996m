@@ -19,12 +19,20 @@ html[data-theme="dark"] {
   --global-link-color-hover: #c4e4f2;
   --global-link-color-visited: #91c6de;
 }
+html {
+  font-size: 15.5px;
+  @include breakpoint($medium) { font-size: 17px; }
+}
 body { line-height: 1.7; }
 .masthead__inner-wrap, .page__footer footer { max-width: 1120px; }
 #main { max-width: 1120px; margin-top: 2.6em; }
 .page__title { font-size: 1.85em; letter-spacing: -0.025em; margin-bottom: 0.6em; }
 .page__content h2 { margin-top: 1.8em; font-weight: 600; }
-.page__content a { text-underline-offset: 3px; }
+a,
+.page__content a,
+.page__content a:hover,
+.author__urls a:hover,
+.page__footer a:hover { text-decoration: none; }
 .author__avatar img {
   width: 180px;
   height: auto;
@@ -55,8 +63,6 @@ body { line-height: 1.7; }
 .publication-entry { padding: 0 0 1.5em; margin-bottom: 1.5em; border-bottom: 1px solid var(--global-border-color); }
 .publication-entry:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0.25em; }
 .page__content .publication-title { font-size: 1.05em; font-weight: 600; line-height: 1.5; margin: 0 0 0.45em; }
-.publication-title a { text-decoration: none; }
-.publication-title a:hover { text-decoration: underline; }
 .page__content .publication-entry p { font-size: 0.88em; margin: 0.15em 0; }
 .publication-details, .teaching-term { color: var(--global-text-color-light); }
 .page__content .publication-links { margin-top: 0.55em; }
