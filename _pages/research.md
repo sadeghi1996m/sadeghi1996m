@@ -32,4 +32,4 @@ Our subject-independent electrode placement method learns common spatial pattern
 
 ## Future directions
 
-I am interested in graph machine learning, geometric deep learning, and statistical inference on graphs, particularly in how structural information and uncertainty can improve learning from complex signals.
+I am interested in graph machine learning, geometric deep learning, and statistical inference on graphs, especially in understanding their theoretical foundations and developing principled learning methods.
