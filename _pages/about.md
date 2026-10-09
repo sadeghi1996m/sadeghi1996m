@@ -1,15 +1,17 @@
 ---
 permalink: /
-title: "About me"
+title: "About"
 excerpt: "Research in graph signal processing, source separation, and sensor placement, with applications to EEG and brain–computer interfaces."
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I recently defended my cotutelle PhD in Signal, Image, Speech and Telecommunications at **Université Grenoble Alpes / Grenoble INP** and **Sharif University of Technology**, supervised by **Bertrand Rivet** and **Massoud Babaie-Zadeh**. During my PhD, I worked in the [Vision & Brain Signal Processing (ViBS) team at GIPSA-lab](https://www.gipsa-lab.grenoble-inp.fr/equipe/vibs) and the Digital Signal Processing Laboratory at Sharif.
+I recently defended my cotutelle PhD in Signal, Image, Speech and Telecommunications at **Université Grenoble Alpes** ([GIPSA-lab](https://www.gipsa-lab.grenoble-inp.fr/)) and **Sharif University of Technology**.
 
-My thesis, *Optimal sensor placement for source separation with application to event-related potential estimation*, studied how to choose sensor locations that improve signal recovery under noise and uncertainty.
+I began my doctoral research at Sharif University of Technology, under the supervision of **Massoud Babaie-Zadeh**. My work focused on **graph signal processing**, particularly the **blind separation of graph signals**.
+
+In 2023, I joined GIPSA-lab in Grenoble as part of the cotutelle programme, with **Bertrand Rivet** as my co-supervisor. My research there focused on **optimal sensor placement for source separation** in noisy and uncertain environments, with applications to EEG electrode placement for P300-based brain–computer interfaces.
 
 ## Research interests
 

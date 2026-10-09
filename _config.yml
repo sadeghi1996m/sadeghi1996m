@@ -2,10 +2,10 @@
 # Restart Jekyll after changing this file.
 locale: "en-US"
 site_theme: "default"
-title: "Mohammad Sadeghi"
+title: "Mohammad SADEGHI"
 title_separator: "|"
-name: "Mohammad Sadeghi"
-description: "Mohammad Sadeghi — graph signal processing, source separation, and statistical methods for sensor placement and EEG."
+name: "Mohammad SADEGHI"
+description: "Mohammad SADEGHI — graph signal processing, source separation, and statistical methods for sensor placement and EEG."
 
 # Rename the GitHub repository to sadeghi1996m.github.io before publishing
 # this configuration. A user homepage is served at the domain root.
@@ -15,7 +15,9 @@ repository: "sadeghi1996m/sadeghi1996m.github.io"
 
 author:
   avatar: "mohammad-sadeghi.png"
-  name: "Mohammad Sadeghi"
+  name: "Mohammad SADEGHI"
+  given_name: "Mohammad"
+  family_name: "SADEGHI"
   location: "Grenoble, France"
   email: "m.sadeghi.gh1996@gmail.com"
   googlescholar: "https://scholar.google.com/citations?user=arn8CucAAAAJ&hl=en"
@@ -36,7 +38,7 @@ analytics:
 og_image: "mohammad-sadeghi.png"
 social:
   type: Person
-  name: "Mohammad Sadeghi"
+  name: "Mohammad SADEGHI"
   links:
     - "https://scholar.google.com/citations?user=arn8CucAAAAJ&hl=en"
     - "https://www.linkedin.com/in/mohammad-sadeghi-gh"

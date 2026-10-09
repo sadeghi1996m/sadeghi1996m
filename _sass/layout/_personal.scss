@@ -33,7 +33,9 @@ body { line-height: 1.7; }
   padding: 0;
   border: 1px solid var(--global-border-color);
 }
-.sidebar .author__name { font-size: 1.1em; line-height: 1.4; margin: 0.8em 0 0.2em; }
+.name-given { font-weight: 400; }
+.name-family { font-weight: 700; }
+.sidebar .author__name { font-size: 1.1em; line-height: 1.4; margin: 0.8em 0 0.75em; }
 .sidebar .author__bio { margin: 0 0 0.5em; }
 .sidebar .author__location { color: var(--global-text-color-light); margin: 0 0 1em; }
 .author__urls-wrapper { display: block; cursor: default; }

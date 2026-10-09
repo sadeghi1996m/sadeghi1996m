@@ -5,7 +5,7 @@
     <img src="{{ '/images/' | append: author.avatar | relative_url }}" alt="{{ author.name }}" fetchpriority="high" width="900" height="1154" itemprop="image">
   </div>
   <div class="author__content">
-    <h2 class="author__name" itemprop="name">{{ author.name }}</h2>
+    <h2 class="author__name" itemprop="name"><span class="name-given">{{ author.given_name | escape }}</span> <span class="name-family">{{ author.family_name | escape }}</span></h2>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
     <p class="author__location"><i class="fas fa-fw fa-location-dot" aria-hidden="true"></i> {{ author.location }}</p>
   </div>
