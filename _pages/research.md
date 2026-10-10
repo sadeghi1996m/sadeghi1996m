@@ -8,9 +8,9 @@ My research studies how the structure of signals and measurement systems can gui
 
 ## Blind separation of graph signals
 
-Graph signal processing uses relationships between observations to model and analyze data on networks. My early doctoral work examined the graph decorrelation (GraDe) algorithm for recovering latent graph signals from observed mixtures.
+We studied the graph decorrelation (GraDe) algorithm, which aims to separate latent graph sources by exploiting the information given by the graph structure.
 
-We identified a limitation caused by dominant eigenvalues in the graph spectrum: sample graph autocovariance matrices can deviate from the diagonal structure needed for effective separation. We developed an improved GraDe method that suppresses the contribution of these spectral outliers, improving separation for several graph models.
+A limitation of this method was identified: sample graph autocovariance matrices can be poor estimates of their expected values because graph signal entries are generally neither independent nor identically distributed across nodes (not i.i.d.). The assumptions that justify sample averaging for time signals do not automatically hold for graph signals, so the sample autocovariance matrices of the sources may lack the diagonal structure that GraDe relies on. We showed that outlier eigenvalues in the graph spectrum contribute to this loss of diagonality and proposed a method that removes their contributions, thereby improving joint diagonalization and source separation.
 
 **Related paper:** [An improved GraDe method for blind separation of graph signals](https://doi.org/10.1109/TSP.2023.3331264), *IEEE Transactions on Signal Processing*, 2023.
 
